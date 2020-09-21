@@ -4,7 +4,7 @@ from bottle import route,run
 
 @route('/')
 def main():
-    return "hello World"
+    return "Update Hello World"
 
 @route('/home')
 def main():
